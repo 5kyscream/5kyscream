@@ -74,9 +74,9 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 
 <div align="center">
 
-<a href="https://instagram.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/INSTAGRAM-0A0A0A?style=for-the-badge&logo=instagram&logoColor=E5383B" alt="Instagram"/></a>
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=E5383B" alt="LinkedIn"/></a>
-<a href="https://x.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=E5383B" alt="X"/></a>
+<a href="https://instagram.com/avganxietyenjoyer"><img src="https://img.shields.io/badge/INSTAGRAM-0A0A0A?style=for-the-badge&logo=instagram&logoColor=E5383B" alt="Instagram"/></a>
+<a href="https://linkedin.com/in/prathmesh-raghuvanshi-7a75a5232"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=E5383B" alt="LinkedIn"/></a>
+<a href="https://x.com/damn_where"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=E5383B" alt="X"/></a>
 <a href="mailto:prathmeshsingh22@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C1121F?style=for-the-badge&logo=gmail&logoColor=0A0A0A" alt="Email"/></a>
 
 <br/><br/>
