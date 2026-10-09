@@ -63,7 +63,6 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 
 <img src="https://streak-stats.demolab.com?user=5kyscream&background=0A0A0A&border=3A0A0E&stroke=3A0A0E&ring=C1121F&fire=E5383B&currStreakNum=ECE4D4&sideNums=ECE4D4&currStreakLabel=E5383B&sideLabels=8A817C&dates=4A4441&date_format=M%20j%5B%2C%20Y%5D" alt="streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=5kyscream&bg_color=0A0A0A&color=ECE4D4&line=C1121F&point=E5383B&area=true&area_color=C1121F&hide_border=true&title_color=E5383B&custom_title=HEART%20MONITOR%20%E2%80%94%20CONTRIBUTIONS" width="100%" alt="contribution graph"/>
 
 </div>
 
@@ -83,3 +82,5 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 <br/><br/>
 
 <img src="assets/footer.svg" width="100%" alt="end of transmission"/>
+
+</div>
