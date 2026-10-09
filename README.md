@@ -83,13 +83,3 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 <br/><br/>
 
 <img src="assets/footer.svg" width="100%" alt="end of transmission"/>
-
-</div>
-<!-- Replace "DsaDojo" with your exact repo name if it differs -->
-<a href="https://github.com/5kyscream/DsaDojo">
-  <img src="https://github-readme-stats.shion.dev/api/pin/?username=5kyscream&repo=DsaDojo&theme=tokyonight&hide_border=true" alt="DsaDojo"/>
-</a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00d4ff&height=120&section=footer" width="100%" alt="footer"/>
