@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img">
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.09 0"/>
+</filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="1" fill="#000" fill-opacity="0.35"/>
+</pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%">
+  <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#000" stop-opacity="0.75"/>
+</radialGradient>
+<filter id="glow" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+.beat{stroke-dasharray:260 1800;animation:beat 3.2s linear infinite}
+@keyframes beat{from{stroke-dashoffset:260}to{stroke-dashoffset:-1800}}
+
+.serif{font-family:'Serif',Georgia,serif}
+.mono{font-family:'Mono',ui-monospace,monospace}
+.type{font-family:'Type','Courier New',monospace}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+</style>
+
+<path d="M0 32 L180 32 L196 32 L204 22 L212 32 L230 32 L238 40 L248 6 L258 58 L266 32 L290 32 L306 26 L322 32 L470 32 L480 30 L488 32 L496 12 L504 52 L510 24 L516 40 L522 32 L540 32 L560 28 L580 32 L720 32 L734 32 L742 22 L750 32 L764 44 L772 2 L782 62 L790 32 L812 32 L830 26 L846 32 L1000 32" fill="none" stroke="#3a0a0e" stroke-width="1.5"/>
+<path d="M0 32 L180 32 L196 32 L204 22 L212 32 L230 32 L238 40 L248 6 L258 58 L266 32 L290 32 L306 26 L322 32 L470 32 L480 30 L488 32 L496 12 L504 52 L510 24 L516 40 L522 32 L540 32 L560 28 L580 32 L720 32 L734 32 L742 22 L750 32 L764 44 L772 2 L782 62 L790 32 L812 32 L830 26 L846 32 L1000 32" fill="none" stroke="#e5383b" stroke-width="2" stroke-linejoin="round" class="beat" filter="url(#glow)"/>
+
+</svg>
