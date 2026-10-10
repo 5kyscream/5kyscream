@@ -1,6 +1,7 @@
 <!-- ═══════════════════════════════════════════════════════════
      TAPE 05 · SIDE A — recovered from github.com/5kyscream
      palette: ink #070606 · blood #C1121F / #E5383B · bone #ECE4D4
+     cached assets refreshed by .github/workflows/cache-assets.yml
      ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -9,12 +10,12 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=E5383B&center=true&vCenter=true&width=620&lines=%3E_+do+not+trust+the+compiler.;%3E_+systems+that+still+hold+up+at+3am.;%3E_+building+DsaDojo+%E2%80%94+1v1+DSA%2C+refereed+by+an+AI.;%3E_+lights+off.+headphones+on.+git+push." alt="typing"/>
+<img src="assets/cache/typing.svg" alt=">_ do not trust the compiler."/>
 
 <br/>
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=5kyscream.5kyscream&left_text=WITNESSES&left_color=%230A0A0A&right_color=%23C1121F" alt="witnesses"/>
-<img src="https://img.shields.io/github/followers/5kyscream?label=FOLLOWING%20THE%20SIGNAL&style=flat-square&color=C1121F&labelColor=0A0A0A" alt="followers"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=5kyscream.5kyscream&left_text=WITNESSES&left_color=%230A0A0A&right_color=%23C1121F" alt="[ witnesses: signal lost ]"/>
+<img src="https://img.shields.io/github/followers/5kyscream?label=FOLLOWING%20THE%20SIGNAL&style=flat-square&color=C1121F&labelColor=0A0A0A" alt="[ followers: signal lost ]"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -46,11 +47,11 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,py,js,ts,html,css,react,nextjs,nodejs,express&theme=dark&perline=10" alt="languages & frameworks"/>
+<img src="assets/cache/skills1.svg" alt="C++ · Python · JavaScript · TypeScript · HTML · CSS · React · Next.js · Node.js · Express"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=fastapi,django,tailwind,threejs,postgres,mongodb,redis,prisma,supabase,firebase&theme=dark&perline=10" alt="backend & data"/>
+<img src="assets/cache/skills2.svg" alt="FastAPI · Django · Tailwind · Three.js · Postgres · MongoDB · Redis · Prisma · Supabase · Firebase"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=graphql,aws,gcp,vercel,github,figma,postman,vite&theme=dark&perline=10" alt="cloud & tools"/>
+<img src="assets/cache/skills3.svg" alt="GraphQL · AWS · GCP · Vercel · GitHub · Figma · Postman · Vite"/>
 
 </div>
 
@@ -58,11 +59,10 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=5kyscream&show_icons=true&include_all_commits=true&bg_color=0A0A0A&title_color=E5383B&text_color=ECE4D4&icon_color=C1121F&ring_color=C1121F&border_color=3A0A0E&custom_title=CASE%20FILE%20%E2%80%94%205KY" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=5kyscream&layout=compact&langs_count=6&bg_color=0A0A0A&title_color=E5383B&text_color=ECE4D4&border_color=3A0A0E&custom_title=FINGERPRINTS" alt="top languages"/>
+<img height="170" src="assets/cache/stats.svg" alt="[ case file: signal lost ]"/>
+<img height="170" src="assets/cache/langs.svg" alt="[ fingerprints: signal lost ]"/>
 
-<img src="https://streak-stats.demolab.com?user=5kyscream&background=0A0A0A&border=3A0A0E&stroke=3A0A0E&ring=C1121F&fire=E5383B&currStreakNum=ECE4D4&sideNums=ECE4D4&currStreakLabel=E5383B&sideLabels=8A817C&dates=4A4441&date_format=M%20j%5B%2C%20Y%5D" alt="streak"/>
-
+<img src="assets/cache/streak.svg" alt="[ streak: signal lost ]"/>
 
 </div>
 
@@ -74,10 +74,10 @@ LAST SEEN .......... somewhere between a segfault and a deploy
 
 <div align="center">
 
-<a href="https://instagram.com/avganxietyenjoyer"><img src="https://img.shields.io/badge/INSTAGRAM-0A0A0A?style=for-the-badge&logo=instagram&logoColor=E5383B" alt="Instagram"/></a>
-<a href="https://linkedin.com/in/prathmesh-raghuvanshi-7a75a5232"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=E5383B" alt="LinkedIn"/></a>
+<a href="https://instagram.com/avganxietyenjoyer"><img src="https://img.shields.io/badge/INSTAGRAM-0A0A0A?style=for-the-badge&logo=instagram&logoColor=E5383B" alt="INSTAGRAM"/></a>
+<a href="https://linkedin.com/in/prathmesh-raghuvanshi-7a75a5232"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=E5383B" alt="LINKEDIN"/></a>
 <a href="https://x.com/damn_where"><img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=E5383B" alt="X"/></a>
-<a href="mailto:prathmeshsingh22@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C1121F?style=for-the-badge&logo=gmail&logoColor=0A0A0A" alt="Email"/></a>
+<a href="mailto:prathmeshsingh22@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C1121F?style=for-the-badge&logo=gmail&logoColor=0A0A0A" alt="EMAIL"/></a>
 
 <br/><br/>
 
