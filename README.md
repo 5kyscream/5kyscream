@@ -13,7 +13,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=5kyscream&label=WITNESSES&color=C1121F&style=flat-square&labelColor=0A0A0A" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=5kyscream&label=WITNESSES&color=C1121F&style=flat-square" alt="profile views"/>
 <img src="https://img.shields.io/github/followers/5kyscream?label=FOLLOWING%20THE%20SIGNAL&style=flat-square&color=C1121F&labelColor=0A0A0A" alt="followers"/>
 
 <img src="assets/divider.svg" width="100%"/>
