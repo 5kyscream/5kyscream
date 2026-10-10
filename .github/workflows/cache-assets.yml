@@ -1,0 +1,37 @@
+name: cache readme assets
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:         # lets you run it manually
+permissions:
+  contents: write
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch svgs
+        run: |
+          mkdir -p assets/cache
+          fetch() {
+            if curl -fsSL --max-time 30 "$2" -o /tmp/f.svg \
+               && grep -q "<svg" /tmp/f.svg \
+               && ! grep -qi "something went wrong\|rate limit\|error" /tmp/f.svg; then
+              mv /tmp/f.svg "assets/cache/$1"
+            else
+              echo "::warning::$1 failed, keeping previous copy"
+            fi
+          }
+          fetch typing.svg  "https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=E5383B&center=true&vCenter=true&width=620&lines=%3E_+do+not+trust+the+compiler.;%3E_+systems+that+still+hold+up+at+3am.;%3E_+building+DsaDojo+%E2%80%94+1v1+DSA%2C+refereed+by+an+AI.;%3E_+lights+off.+headphones+on.+git+push."
+          fetch stats.svg   "https://github-readme-stats.vercel.app/api?username=5kyscream&show_icons=true&include_all_commits=true&bg_color=0A0A0A&title_color=E5383B&text_color=ECE4D4&icon_color=C1121F&ring_color=C1121F&border_color=3A0A0E&custom_title=CASE%20FILE%20%E2%80%94%205KY"
+          fetch langs.svg   "https://github-readme-stats.vercel.app/api/top-langs/?username=5kyscream&layout=compact&langs_count=6&bg_color=0A0A0A&title_color=E5383B&text_color=ECE4D4&border_color=3A0A0E&custom_title=FINGERPRINTS"
+          fetch streak.svg  "https://streak-stats.demolab.com?user=5kyscream&background=0A0A0A&border=3A0A0E&stroke=3A0A0E&ring=C1121F&fire=E5383B&currStreakNum=ECE4D4&sideNums=ECE4D4&currStreakLabel=E5383B&sideLabels=8A817C&dates=4A4441&date_format=M%20j%5B%2C%20Y%5D"
+          fetch skills1.svg "https://skillicons.dev/icons?i=cpp,py,js,ts,html,css,react,nextjs,nodejs,express&theme=dark&perline=10"
+          fetch skills2.svg "https://skillicons.dev/icons?i=fastapi,django,tailwind,threejs,postgres,mongodb,redis,prisma,supabase,firebase&theme=dark&perline=10"
+          fetch skills3.svg "https://skillicons.dev/icons?i=graphql,aws,gcp,vercel,github,figma,postman,vite&theme=dark&perline=10"
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cache
+          git diff --cached --quiet || (git commit -m "chore: refresh cached readme assets" && git push)
