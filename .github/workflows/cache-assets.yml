@@ -35,3 +35,17 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/cache
           git diff --cached --quiet || (git commit -m "chore: refresh cached readme assets" && git push)
+      - name: Cache followers badge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          n=$(curl -fsSL -H "Authorization: Bearer $GH_TOKEN" \
+                https://api.github.com/users/5kyscream | jq -r '.followers')
+          # keep the last good badge if the API call returns junk
+          if [[ "$n" =~ ^[0-9]+$ ]]; then
+            curl -fsSL --retry 3 --max-time 20 \
+              "https://img.shields.io/badge/FOLLOWING%20THE%20SIGNAL-${n}-C1121F?style=flat-square&labelColor=0A0A0A" \
+              -o /tmp/followers.svg
+            grep -q '<svg' /tmp/followers.svg && mv /tmp/followers.svg assets/cache/followers.svg
+          fi
